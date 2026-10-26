@@ -40,15 +40,6 @@ The data are in [`data/Data.xlsx`](data/Data.xlsx); the sheet *Data description*
 - **Where tourism is counted.** Travel turnover is recorded where travel businesses are registered, which favours large cities: a tour to Ha Giang sold by a Hanoi agency counts for Hanoi. The real concentration is probably smaller than shown, but the gap is too large to change the conclusion.
 - **Province names.** Some names in the Excel file contain hidden non-breaking spaces; the script cleans them before joining the data to the map.
 
-## Run it
-
-```r
-# install.packages(c("tidyverse", "readxl", "sf", "ggrepel", "ggtext",
-#                    "patchwork", "treemapify", "showtext"))
-source("vietnam.R")   # writes vietnam.png
-```
-
-Fonts (Abril Fatface and Roboto Condensed) are loaded from Google Fonts by `showtext`, so an internet connection is needed the first time.
 
 ## Repo layout
 
